@@ -1,28 +1,22 @@
 // Place all the styles related to the Wellcom controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-#slideshow {
-    align-items: center;
-    vertical-align: middle;
-    margin: 50px auto;
-    position: relative;
-    width: 600px;
-    height: 400px;
-    padding: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
 }
 
-#slideshow > div {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
-#slideshow img {
-  margin: 1px auto 1px;
-  position: relative;
-  width: 600px;
-  height: 400px;
 
+#cf img.top:hover {
+  opacity:0;
 }

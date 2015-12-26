@@ -82,8 +82,13 @@ header #LOGO{
   margin-right:0px;
   height: auto;
   width: 100%;
-  background-color: #666;
+
+
   vertical-align: middle;
+}
+#MainPage img{
+  background: url('main.png');
+  opacity: 0.3;
 }
 #About-us {
   display: block;
