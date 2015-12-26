@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="Style.css">
+  <title>.::MARTA::.</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+</head>
+<body>
+  <header>
+    <nav class="HearderBox">
+    <div id="LOGO" class="HeaderBox">
+        <%= image_tag("ablogo1.png") %>
+    </div>
+      <ul>
+        <li><a href="#">contact us</a></li>
+        <li><a href="#">About-us</a></li>
+        <li><a href="#">gallery</a></li>
+        <li><a href="#">home</a></li>
+      </ul>
+
+   </nav>
+</header>
+<div id="MainPage">
+
+
+<%= yield %>
+</div>
+<footer>
+  <div id="Ab">
+    <%= image_tag("ablogo1.png") %>
+    <%= image_tag("ablogo2.png") %>
+    <%= image_tag("ablogo1.png") %>
+    <%= image_tag("ablogo2.png") %>
+    <%= image_tag("ablogo1.png") %>
+  </div>
+  <p dir="rtl">
+    تمام حقوق مادی و معنوی این وبسایت مطعلق به شرکت ستاره خرد می باشد.
+  </p>
+</footer>
+</body>
+</html>

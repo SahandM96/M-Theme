@@ -1,0 +1,125 @@
+.group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.group { display: inline-block; clear: both; }
+/* start commented backslash hack \*/ * html .group { height: 1%; } .group { display: block; } /* close commented backslash hack */
+body {
+  background: url('BG.png');
+  //background:black;
+  background-size:cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+nav {
+  position: relative;
+  background: darkorange;
+  margin-top: 0px ;
+  left: 0;
+  right: 0;
+  top:0;
+  height: 80px;
+  margin-bottom: 15px;
+  display: inline-table;
+  width: 100%;
+
+}
+nav ul {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  text-decoration: none;
+  list-style-type: none;
+  top: auto;
+  text-align: center;
+
+}
+nav li{
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
+  list-style-type: none;
+  display: inline;
+
+}
+nav a{
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: oblique;
+    vertical-align: middle;
+    list-style-type: none;
+    background-color: #003800;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-decoration: none;
+
+}
+
+nav li a:hover {
+    background-color: #111;
+  }
+header #LOGO{
+    float: left;
+  }
+
+#LOGO img{
+  display: block;
+  height: 80px;
+  width: 80px;
+  float: left;
+  margin: 0px 10px 0px 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+
+}
+#MainPage{
+  margin-top: 20px;
+  margin-bottom:20px;
+  margin-left:0px;
+  margin-right:0px;
+  height: auto;
+  width: 100%;
+  background-color: #666;
+  vertical-align: middle;
+}
+#About-us {
+  display: block;
+  height: 360px;
+  width: auto;
+  background-color: darkgray;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#Ab img {
+  display: inline;
+  height: 40px;
+  width: 60px;
+  border-radius: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin: 0px;
+}
+footer {
+  position: absolute;
+  display: inline-table;
+  height: 30px;
+  width: 100%;
+  margin: 0;
+  background-color: darkorange;
+  bottom: 0px;
+left:0px;
+}
+footer p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 25px;
+  color: #ffffff;
+
+}
