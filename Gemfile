@@ -43,5 +43,22 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+end
+gem 'nprogress-rails'
+gem 'contact_us', '~> 1.0.1'
+gem 'mail_form'
+gem 'simple_form'
+source 'http://rails-assets.org' do
+  gem 'rails-assets-sugar'
+  gem 'rails-assets-bootstrap-rtl'
+  gem 'rails-assets-jquery-knob'
+  gem 'rails-assets-bootstrap-daterangepicker'
+  gem 'rails-assets-jquery-sparkline'
+  gem 'rails-assets-jquery-icheck'
+  gem 'rails-assets-admin-lte'
 end
 
+gem "faalis"
+
+gem 'jquery-turbolinks'

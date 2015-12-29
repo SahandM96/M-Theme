@@ -15,10 +15,10 @@
         <%= image_tag("ablogo1.png") %>
     </div>
       <ul>
-        <li><a href="#">contact us</a></li>
-        <li><a href="#">About-us</a></li>
-        <li><a href="#">gallery</a></li>
-        <li><a href="#">home</a></li>
+        <li><%= link_to("Contact Us",contact_Us_path)%></li>
+        <li><%= link_to("About us", about_us_path)%></li>
+        <li><%= link_to("Gallery", galleries_path)%></li>
+        <li><%= link_to("Home",root_path)%></li>
       </ul>
 
    </nav>

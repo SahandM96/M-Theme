@@ -23,7 +23,7 @@ nav {
 
 }
 nav ul {
-  display: table-cell;
+  display: block;
   vertical-align: middle;
   position: relative;
   text-decoration: none;
@@ -82,14 +82,10 @@ header #LOGO{
   margin-right:0px;
   height: auto;
   width: 100%;
+  background: #FFFFFF;
 
+}
 
-  vertical-align: middle;
-}
-#MainPage img{
-  background: url('main.png');
-  opacity: 0.3;
-}
 #About-us {
   display: block;
   height: 360px;

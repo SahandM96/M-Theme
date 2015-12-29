@@ -1,12 +1,30 @@
 Rails.application.routes.draw do
-  get 'about_us/Resume'
+  mount Faalis::Engine => '/'
 
-  get 'about_us/Resume'
+  api_routes do
+    # Your API routes goes here.
+  end
+
+  in_dashboard do
+    # Your dashboard routes goes here.
+  end
+
+  resources :galleries
+  resources :tests
+  get 'about_us', to: 'about_us#index', as: :about_us
+  get 'contact_us', to: 'contact_us#index', as: :contact_Us
+  #get 'galleries' to: 'galleries#index', as: :galleries
+  #get 'contact_us'
+
+  #get 'about_us/Resume'
+
+  #get 'about_us/Resume'
 
   root  "wellcom#index"
   #get 'wellcom/index'
 
-
+  get '/resume' => 'about_us#resume'
+  #resume
 
 
 

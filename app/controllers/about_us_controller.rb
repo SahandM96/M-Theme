@@ -1,4 +1,5 @@
 class AboutUsController < ApplicationController
-  def Resume
+  def index
+
   end
 end
