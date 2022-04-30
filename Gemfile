@@ -1,16 +1,16 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.5'
+gem 'rails', '7.0.2.4'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.1.0'
+gem 'coffee-rails'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -56,7 +56,7 @@ source 'http://rails-assets.org' do
   gem 'rails-assets-bootstrap-daterangepicker'
   gem 'rails-assets-jquery-sparkline'
   gem 'rails-assets-jquery-icheck'
-  gem 'rails-assets-admin-lte'
+#  gem 'rails-assets-admin-lte'
 end
 
 gem "faalis"
